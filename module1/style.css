@@ -122,8 +122,8 @@ body {
     align-items: center;
 }
 
-#paragraph3 #photo img {
-    width: 150px;
+#paragraph3 #guitarPhoto img {
+    width: 100px;
     height: auto;
     object-fit: contain;
     border: 6px solid rgb(14, 13, 13);
