@@ -9,13 +9,13 @@ body {
     background: radial-gradient(rgb(17, 18, 19), rgb(37, 40, 42))
 }
 
-nav {
+#top {
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
 
-nav h1 {
+#top h1 {
     font-family: var(--cursive-font);
     font-size: 45px;
     width: 100%;
@@ -107,14 +107,14 @@ nav h1 {
     align-items: center;
 }
 
-#paragraph3 #text {
+#paragraph3 #textPara {
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#paragraph3 #photo {
+#paragraph3 #guitarPhoto {
     width: 20%;
     padding-left: 20px;
     display: flex;
