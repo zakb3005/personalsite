@@ -1,0 +1,130 @@
+:root {
+    --blue-color: rgb(110, 163, 241);
+    --white-color: rgb(228, 228, 228);
+    --big-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --cursive-font: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+body {
+    background: radial-gradient(rgb(17, 18, 19), rgb(37, 40, 42))
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav h1 {
+    font-family: var(--cursive-font);
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.poster {
+    display: flex;
+    /*box-shadow: 13px 13px 8px rgba(0,0,0,0.25);*/
+    background: linear-gradient(rgb(17, 17, 20), rgb(31, 31, 37));
+    width: 80%;
+    height: 500px;
+    margin: 5px auto 0;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto 0;
+    color: var(--white-color);
+}
+
+.info #header {
+    align-self: center;
+    width: auto;
+    color: var(--white-color);
+    margin-bottom: 30px;
+    font-family: var(--cursive-font);
+    font-size: 20px;
+}
+
+.poster #text {
+    color: var(--white-color);
+    /*margin-left: 70px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.poster #text h1 {
+    font-size: 65px;
+    margin: 0;
+    padding-bottom: 30px;
+    line-height: 120%;
+    font-family: var(--big-font);
+}
+
+.lastName {
+    color: var(--blue-color);
+}
+
+.readMore {
+    color: var(--blue-color);
+    font-weight: bold;
+}
+
+.poster #text p {
+    line-height: 130%;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.poster #photo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster #photo img {
+    max-width: 100%;
+    max-height: 90%;
+    height: auto;
+    width: auto;
+}
+
+.info p {
+    line-height: 150%;
+}
+
+#paragraph3 {
+    display: flex;
+    align-items: center;
+}
+
+#paragraph3 #text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#paragraph3 #photo {
+    width: 20%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraph3 #photo img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    border: 6px solid rgb(14, 13, 13);
+}
